@@ -13,7 +13,7 @@ export default defineConfig({
   ],
   title: "Arcane Games",
   outDir: './docs',
-  base: '/ArcaneGames/',
+  base: '/arcanegames/',
   description: "Game design documents for Arcanepad games in development",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
