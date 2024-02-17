@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.29",
+    "vue": "^3.3.8"
+  },
+  "dependencies": {
+    "prismjs": "^1.29.0"
+  }
+}
