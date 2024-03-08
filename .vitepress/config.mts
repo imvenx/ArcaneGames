@@ -33,11 +33,24 @@ export default defineConfig({
         ]
       },
       {
+        text: 'UI',
+        items: [
+          { text: 'Basic UI project', link: '/guide/basic-ui/basic-ui' },
+        ]
+      },
+      {
         text: 'Resurrected Pharaoh',
         collapsed: false,
         items: [
           { text: 'Intro', link: '/guide/resurrected-pharaoh/intro', },
           { text: 'Updates', link: '/guide/resurrected-pharaoh/updates', },
+        ]
+      },
+      {
+        text: 'Arcane Cases',
+        collapsed: false,
+        items: [
+          { text: 'Gun Case', link: '/guide/arcane-cases/gun-case', },
         ]
       },
     ],

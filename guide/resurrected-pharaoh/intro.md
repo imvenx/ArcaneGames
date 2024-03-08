@@ -2,10 +2,12 @@
 
 ## Intro
 
-Resurrected Pharaoh is a On Rail shooter game that uses smartphones as guns
+Resurrected Pharaoh is a On Rail shooter game that uses smartphones as guns.
+
+![Alt text](./game-cover.webp "Optional title")
 
 ## Examples
-Here we can see gun pads in action, with different games:
+Here we can see arcanepad gun pads in action, with different games:
 
 ### Metro Cop on https://helpcomputer.itch.io/metro-cop with the pixel gun pad
 <YoutubeEmbed video-id="c93HWJ0Bd8M" />
@@ -15,6 +17,7 @@ Here we can see gun pads in action, with different games:
 
 ### Duck Hunt with the pixel gun pad
 <YoutubeEmbed video-id="VwzbG70TPgY" />
+
 
 ## Gamepad Graphics:
 
