@@ -33,7 +33,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'UI',
+        text: 'UI', collapsed: false,
         items: [
           { text: 'Basic UI project', link: '/guide/basic-ui/basic-ui' },
         ]
