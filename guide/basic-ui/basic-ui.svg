@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.72426347"
-     inkscape:cx="463.22922"
-     inkscape:cy="2759.355"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="2552"
-     inkscape:window-y="204"
+     inkscape:zoom="0.48270253"
+     inkscape:cx="1288.5783"
+     inkscape:cy="949.86035"
+     inkscape:window-width="2560"
+     inkscape:window-height="1530"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -500,27 +500,28 @@
        id="text73"><tspan
          x="518.96417"
          y="34.361622"
-         id="tspan1">Explanation: Viewer is the authority, gamepads/</tspan><tspan
+         id="tspan2">Explanation: Viewer is the authority, gamepads/</tspan><tspan
          x="518.96417"
          y="43.18107"
-         id="tspan2">smartphones send press events to the view, and </tspan><tspan
+         id="tspan8">smartphones send press events to the view, and </tspan><tspan
          x="518.96417"
          y="52.00052"
-         id="tspan6">listen to the view in order to tell them when to change </tspan><tspan
+         id="tspan18">listen to the view in order to tell them when to change </tspan><tspan
          x="518.96417"
          y="60.819971"
-         id="tspan8">to another UI</tspan></text>
+         id="tspan20">to another UI</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
-       x="310.37851"
-       y="51.73645"
-       id="text76"><tspan
+       x="319.17059"
+       y="40.568127"
+       id="text76"
+       inkscape:transform-center-x="-1.4257436"><tspan
          sodipodi:role="line"
          id="tspan76"
          style="stroke-width:0.264583"
-         x="310.37851"
-         y="51.73645">(Viewer)</tspan></text>
+         x="319.17059"
+         y="40.568127">(Viewer screen)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
@@ -614,14 +615,14 @@
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
-       x="370.28461"
+       x="374.41766"
        y="803.29211"
        id="text100"><tspan
          sodipodi:role="line"
          id="tspan100"
          style="stroke-width:0.264583"
-         x="370.28461"
-         y="803.29211">RESUME</tspan></text>
+         x="374.41766"
+         y="803.29211">BACK</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
@@ -654,13 +655,13 @@
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
-       x="375.96756"
+       x="373.95834"
        y="787.01825"
        id="text103"><tspan
          sodipodi:role="line"
          id="tspan103"
          style="stroke-width:0.264583"
-         x="375.96756"
+         x="373.95834"
          y="787.01825">PAUSE</tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
@@ -722,8 +723,9 @@
          y="698.87891">(move player cube)</tspan></text>
     <path
        style="fill:#b3b3b3;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;marker-end:url(#Triangle)"
-       d="m 376.89048,718.38174 -0.25832,13.94905"
-       id="path107" />
+       d="m 385.74934,719.47768 -0.25832,12.91579"
+       id="path107"
+       sodipodi:nodetypes="cc" />
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect107"
@@ -742,5 +744,63 @@
          style="stroke-width:0.264583"
          x="375.96756"
          y="747.88336">QUIT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="404.62943"
+       y="747.84161"
+       id="text109"><tspan
+         sodipodi:role="line"
+         id="tspan109"
+         style="stroke-width:0.264583"
+         x="404.62943"
+         y="747.84161">(Go back to select level)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="404.62943"
+       y="787.29547"
+       id="text110"><tspan
+         sodipodi:role="line"
+         id="tspan110"
+         style="stroke-width:0.264583"
+         x="404.62943"
+         y="787.29547">(Toggle to &quot;RESUME&quot; on press pause)</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect1"
+       width="32.116489"
+       height="14.417754"
+       x="359.86002"
+       y="155.31758" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="367.87564"
+       y="164.56308"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="367.87564"
+         y="164.56308">EXIT</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect4"
+       width="32.116489"
+       height="14.417754"
+       x="442.03589"
+       y="155.31758" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="450.05151"
+       y="164.56308"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:0.264583"
+         x="450.05151"
+         y="164.56308">EXIT</tspan></text>
   </g>
 </svg>
