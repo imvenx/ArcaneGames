@@ -24,7 +24,7 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 
 9. On Gamead gets connected it should load the right pad according to the view, so it gets the current ui state, and it loads the corresponding ui panels/scenes.
 
-10. We may want to add a settings pad, which is independent from the ui state, and is on top of the other pads, since is a local state not a global one like the other gamepads. This pad will be used for things like lower the volume of the game etc..
+10. We may want to add a settings pad, accessible from the level select pad and on the menu pad in game, which is independent from the ui state, and is on top of the other pads, since is a local state not a global one like the other gamepads. This pad will be used for things like lower the volume of the game etc..
 
 11. We want a loading panel or smt for when we load a scene with a lot of meshes on a low end device, so it signals the scene is loading, just a text saying "loading..." is enough for the time being
 
