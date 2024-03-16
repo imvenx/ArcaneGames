@@ -30,7 +30,7 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 
 12. Gamepad and GameView should be responsive, keep in mind this could be played on a TV, a PC, or even a phone, yes the view can be on a phone or tablet, altho not very widespread use yet, we support android devices, so we need to make and test all is responsive. 
 
-
+13. Project is open source so we need to make sure all the assets we use are compatible with open source project, or we own them, and we need to take care of attributing credit to any resource that requires it.
 
 ## Unity Example: https://github.com/imvenx/mini-golf
 
