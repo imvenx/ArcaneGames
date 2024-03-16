@@ -32,6 +32,8 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 
 13. Project is open source so we need to make sure all the assets we use are compatible with open source project, or we own them, and we need to take care of attributing credit to any resource that requires it.
 
+14. Actually forget all what I said about dont destroy on load and all that, instead we should implement a robust Additive Scene Loading system, so we don't need to destroy or dont destroy anything but we just have the main ui/logic on main scene, and then we load the levels inside this scene.
+
 ## Unity Example: https://github.com/imvenx/mini-golf
 
 This unity example has implemented already the ui system, altho is all working, I rushed it and I don't like how is done since is all put together on a big singleton "ViewManager" without any design pattern, also the scene changes destroyed some necesary objects so I had to put all inside the ViewManager gameobject and make don't destroy on load, while this approach works, is not very nice I think, and could be improved to scale better in the future and be more readable, efficient, and clean.
