@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.24135127"
-     inkscape:cx="948.82453"
-     inkscape:cy="776.87598"
+     inkscape:zoom="0.96540508"
+     inkscape:cx="1217.1057"
+     inkscape:cy="3749.2034"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="2552"
@@ -500,16 +500,16 @@
        id="text73"><tspan
          x="518.96417"
          y="34.361622"
-         id="tspan10">Explanation: Viewer is the authority, gamepads/</tspan><tspan
+         id="tspan18">Explanation: Viewer is the authority, gamepads/</tspan><tspan
          x="518.96417"
          y="43.18107"
-         id="tspan11">smartphones send press events to the view, and </tspan><tspan
+         id="tspan20">smartphones send press events to the view, and </tspan><tspan
          x="518.96417"
          y="52.00052"
-         id="tspan22">listen to the view in order to tell them when to change </tspan><tspan
+         id="tspan25">listen to the view in order to tell them when to change </tspan><tspan
          x="518.96417"
          y="60.819971"
-         id="tspan23">to another UI</tspan></text>
+         id="tspan33">to another UI</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
@@ -856,5 +856,141 @@
          style="stroke-width:0.264583"
          x="515.75482"
          y="463.81046">settings</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;white-space:pre;inline-size:409.3;display:inline;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="286.46078"
+       y="893.49396"
+       id="text2"><tspan
+         x="286.46078"
+         y="893.49396"
+         id="tspan35">We will have a PrefabSceneLoader instead of loading scenes we will load prefabs and show the loading panel&#10;</tspan><tspan
+         x="286.46078"
+         y="902.31344"
+         id="tspan45">&#10;</tspan><tspan
+         x="286.46078"
+         y="911.1329"
+         id="tspan46">View Scene -&gt; ViewManager.cs  -&gt; PrefabSceneLoader(GameObject prefabScene, Panel loadingPanel)&#10;</tspan><tspan
+         x="286.46078"
+         y="919.95236"
+         id="tspan48">&#10;</tspan><tspan
+         x="286.46078"
+         y="928.77181"
+         id="tspan50">Pad Scene -&gt; PadManager.cs -&gt; PrefabSceneLoader(GameObject prefabScene, Panel loadingPanel) </tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect26"
+       width="116.66334"
+       height="63.564079"
+       x="292.42566"
+       y="953.17688" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="328.11862"
+       y="963.92853"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="stroke-width:0.264583"
+         x="328.11862"
+         y="963.92853">Select Level</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect30"
+       width="116.66334"
+       height="63.564079"
+       x="429.45795"
+       y="952.35468" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="471.45441"
+       y="987.77216"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="stroke-width:0.264583"
+         x="471.45441"
+         y="987.77216">Loading...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.17257px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264584;-inkscape-stroke:none;stop-color:#000000"
+       x="430.63013"
+       y="950.435"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="stroke-width:0.264584"
+         x="430.63013"
+         y="950.435">Async DestroyLastLevelPrefabIfExists()</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264584"
+         x="430.63013"
+         y="956.9007"
+         id="tspan41">Async CreateNewLevel</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264584"
+         x="430.63013"
+         y="963.36639"
+         id="tspan44">LoadingPanel.setActive()</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect31"
+       width="116.66334"
+       height="63.564079"
+       x="568.13464"
+       y="952.35468" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="610.1311"
+       y="987.77216"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="stroke-width:0.264583"
+         x="610.1311"
+         y="987.77216">Game Level</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect33"
+       width="39.146168"
+       height="63.564079"
+       x="332.73459"
+       y="1034.1824" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;fill-opacity:1"
+       d="m 524.66177,1015.6732 -12.98411,-10.0773 12.20896,-7.75166 -13.17793,-7.55793 12.79034,-10.4648 -16.4724,-8.91448 14.92205,-5.81379 -14.72826,-5.8138 14.14689,-6.97653 h 24.6117 v 63.17649 z"
+       id="path33" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.81387px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
+       x="476.71307"
+       y="1065.9496"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="stroke-width:0.264583"
+         x="476.71307"
+         y="1065.9496">Loading...</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square"
+       d="m 503.8089,1098.0352 -3.34241,-10.0773 3.14287,-7.7517 -3.39231,-7.5579 3.29253,-10.4648 -4.24038,-8.9145 3.84129,-5.8138 -3.7914,-5.8138 3.64174,-6.9765 h 6.33563 v 63.1765 z"
+       id="path34" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect34"
+       width="39.146168"
+       height="63.564079"
+       x="469.74619"
+       y="1034.1824" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect36"
+       width="39.146168"
+       height="63.564079"
+       x="610.24603"
+       y="1034.1824" />
   </g>
 </svg>
