@@ -14,9 +14,9 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 
 4. Panel and Button Component/Prefab/Scene: We can modify all instances of panels and buttons, they have they're own class to do things like check if animate on appear/disappear, if play sound on press in case of button, and we can change the texture to all instances too with this prefab/scene
 
-5. Load different scenes/levels seamlessly while bringing the whole ui big singleton game object which contains all the things that we shouldn't destroy on load other scene, also on navigate to main scene back we should prevent creating again anything that is already created.
+5. ~~Load different scenes/levels seamlessly while bringing the whole ui big singleton game object which contains all the things that we shouldn't destroy on load other scene, also on navigate to main scene back we should prevent creating again anything that is already created.~~
 
-6. (?)(OPTIONAL) Be able to load game scenes without having to go to main, for example I want to play level 4 without having to navigate to main scene, press play, and select level 4. This has to be evaluated as if it is too complex or too game dependent maybe we don't want to do it.
+6. ~~(?)(OPTIONAL) Be able to load game scenes without having to go to main, for example I want to play level 4 without having to navigate to main scene, press play, and select level 4. This has to be evaluated as if it is too complex or too game dependent maybe we don't want to do it.~~
 
 7. Separate view manager in more classes: The ViewManager.cs script has already too many responsibilities, so we may need to rethink how we structure our UI to work and scale better in the future with a game.
 
