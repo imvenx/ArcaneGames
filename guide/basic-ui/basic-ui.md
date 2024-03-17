@@ -10,7 +10,7 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 
 2. Authoritative Viewer State: The gamepad sends inputs like "Player 1 pressed start button", the viewer listens to this event and decides to emit to al gamepads if necesary the "start" event for example which would change the UI of gamepads and viewer. The gamepads can have also they're own state like when they go to menu or settings for example so they don't need to tell anyone about this.
 
-3. Button press sound: The button component must support a sound on press, and we can change this sound only once to affect all buttons, or disable sound aswell.
+3. Button press sound: The button component must support a sound on press, and we can change this sound only once to affect all buttons, or disable sound aswell. Add a generic free sound to test.
 
 4. Panel and Button Component/Prefab/Scene: We can modify all instances of panels and buttons, they have they're own class to do things like check if animate on appear/disappear, if play sound on press in case of button, and we can change the texture to all instances too with this prefab/scene
 
