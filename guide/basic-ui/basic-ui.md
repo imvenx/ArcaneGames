@@ -35,6 +35,8 @@ IMPORTANT: This is a guideline, but I will appreciate criticism/proactivity, if 
 14. ~~Actually forget all what I said about dont destroy on load and all that, instead we should implement a robust Additive Scene Loading system, so we don't need to destroy or dont destroy anything but we just have the main ui/logic on main scene, and then we load the levels inside this scene. Edit two: we will implement a prefab level loading system, we will use prefabs as levels, this is due to we needing to export different scenes for gamepad and for game views, so if we have to check/uncheck every scene on unity all the time this will be a lot of work, so we prefeer to instantiate/destroy prefabs that behave as game levels, and we just have the ViewScene and the PadScene to export ot the game view or pad, we will likely have sandbox scenes for testing prefabs but this won't be necesary to export.~~
 Edit three: We wil lactually use additive scenes at the end since we can fix the scalability problmes with a custom menu "ArcaneTools" to select/deselect multiple scenes to export.
 
+![alt text](arcane-tools-select-export-scenes.gif)
+
 15. Use always coroutines instead of async await, to prevent errors with web export
 
 16. Don't use lambda functions to prevent errors with web export
