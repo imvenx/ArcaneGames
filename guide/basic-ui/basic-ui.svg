@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.96540508"
-     inkscape:cx="1217.1057"
-     inkscape:cy="3749.2034"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="2552"
-     inkscape:window-y="204"
+     inkscape:cx="902.21195"
+     inkscape:cy="3680.8383"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -500,16 +500,16 @@
        id="text73"><tspan
          x="518.96417"
          y="34.361622"
-         id="tspan18">Explanation: Viewer is the authority, gamepads/</tspan><tspan
+         id="tspan2">Explanation: Viewer is the authority, gamepads/</tspan><tspan
          x="518.96417"
          y="43.18107"
-         id="tspan20">smartphones send press events to the view, and </tspan><tspan
+         id="tspan8">smartphones send press events to the view, and </tspan><tspan
          x="518.96417"
          y="52.00052"
-         id="tspan25">listen to the view in order to tell them when to change </tspan><tspan
+         id="tspan10">listen to the view in order to tell them when to change </tspan><tspan
          x="518.96417"
          y="60.819971"
-         id="tspan33">to another UI</tspan></text>
+         id="tspan11">to another UI</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
@@ -856,27 +856,6 @@
          style="stroke-width:0.264583"
          x="515.75482"
          y="463.81046">settings</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:7.05556px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;white-space:pre;inline-size:409.3;display:inline;fill:#000000;stroke-width:0.264583;-inkscape-stroke:none;stop-color:#000000"
-       x="286.46078"
-       y="893.49396"
-       id="text2"><tspan
-         x="286.46078"
-         y="893.49396"
-         id="tspan35">We will have a PrefabSceneLoader instead of loading scenes we will load prefabs and show the loading panel&#10;</tspan><tspan
-         x="286.46078"
-         y="902.31344"
-         id="tspan45">&#10;</tspan><tspan
-         x="286.46078"
-         y="911.1329"
-         id="tspan46">View Scene -&gt; ViewManager.cs  -&gt; PrefabSceneLoader(GameObject prefabScene, Panel loadingPanel)&#10;</tspan><tspan
-         x="286.46078"
-         y="919.95236"
-         id="tspan48">&#10;</tspan><tspan
-         x="286.46078"
-         y="928.77181"
-         id="tspan50">Pad Scene -&gt; PadManager.cs -&gt; PrefabSceneLoader(GameObject prefabScene, Panel loadingPanel) </tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect26"
@@ -913,27 +892,6 @@
          style="stroke-width:0.264583"
          x="471.45441"
          y="987.77216">Loading...</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.17257px;line-height:normal;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.264584;-inkscape-stroke:none;stop-color:#000000"
-       x="430.63013"
-       y="950.435"
-       id="text31"><tspan
-         sodipodi:role="line"
-         id="tspan31"
-         style="stroke-width:0.264584"
-         x="430.63013"
-         y="950.435">Async DestroyLastLevelPrefabIfExists()</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264584"
-         x="430.63013"
-         y="956.9007"
-         id="tspan41">Async CreateNewLevel</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264584"
-         x="430.63013"
-         y="963.36639"
-         id="tspan44">LoadingPanel.setActive()</tspan></text>
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.27618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect31"
